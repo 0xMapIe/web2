@@ -1,0 +1,96 @@
+:root {
+    --clr-white: rgb(255, 255, 255);
+    --clr-black: rgb(0, 0, 0);
+    --clr-dark: rgb(35, 39, 42);
+    --clr-hero-blue: #404eed;
+    --clr-btn-blue: rgb(88, 101, 242);
+    --clr-darker-white: rgb(246, 246, 246);
+
+
+    --size-xxxs: 0.25rem;
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+}
+
+* {
+    margin: 0;
+    line-height: calc(1em + var(--size-xxs));
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--clr-white);
+    letter-spacing: 0;
+}
+
+h2 {
+    color: var(--clr-dark);
+    font-size: var(--size-lg);
+    font-weight: 800;
+    line-height: 1.5rem;
+}
+
+p {
+    color: var(--clr-dark);
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 0 0;
+    line-height: 1.64rem;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+a {
+    color: var(--clr-white);
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 0.91rem;
+}
+
+strong {
+    font-size: 2.5rem;
+    letter-spacing: -3.5px;
+    line-height: 0;
+}
